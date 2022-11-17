@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+body {
+  background-color: azure;
+  font-family: "Titillium Web", sans-serif;
+  color:black;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1, h2 {
+  color:cadetblue;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+a {
+  text-decoration: none;
+  color:darkcyan;
+  font-weight: 300;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+  color:deepskyblue;
+  font-weight: 700;
+}
+
+.container {
+  text-align: center;
+  margin:0 auto;
+  width: 1440px;
+}
+
+.card {
+  background:white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.1)
+}
+
+img {
+  box-shadow: 5px 5px 5px lightgrey
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.1)
+}
+
+.btn-blue {
+  background-color:aliceblue;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 50px;
+}
+
+.btn-blue:hover {
+  border: 1px solid;
+  background-color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display:inline-block;
+  padding: 0px 10px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
